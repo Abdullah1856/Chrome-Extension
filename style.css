@@ -1,0 +1,32 @@
+body {
+    margin: 0px;
+    padding: 10px;
+}
+
+button {
+    background-color: #5f9341;
+    color: #fff;
+    border: 1px solid;
+    border-color: #5f9341;
+    padding: 10px 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+input {
+    width: 100%;
+    border: 1px solid;
+    border-color: #5f9341;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+}
+
+input:focus-visible {
+    border: 1px solid !important;
+    border-color: #5f9341 !important;
+    outline: none;
+    background-color: #7ad5ff2b;
+}
