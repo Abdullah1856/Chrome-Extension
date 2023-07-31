@@ -4,6 +4,7 @@ function btn() {
 }
 */
 
+/* Event Listner */
 let inBtn = document.getElementById("button-el")
 
 inBtn.addEventListener("click", function () {
