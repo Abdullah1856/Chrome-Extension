@@ -5,7 +5,7 @@ function btn() {
 */
 
 myLeads = []
-inputEl = document.getElementById('input-el')
+let inputEl = document.getElementById('input-el')
 
 /* Event Listner */
 let inBtn = document.getElementById("button-el")
