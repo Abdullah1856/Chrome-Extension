@@ -1,16 +1,12 @@
-/*
-function btn() {
-    console.log('Button Clicked');
-}
-*/
-
-myLeads = []
+let myLeads = []
 const inputEl = document.getElementById('input-el')
+const btnClicked = document.getElementById('button-el')
+let value = 'abdullah.com'
 
-/* Event Listner */
-const inBtn = document.getElementById("button-el")
-inBtn.addEventListener("click", function () {
-    console.log('This is it!');
-})
+btnClicked.addEventListener("click", function () {
+    myLeads.push('abdullah.com')
+    console.log(myLeads);
+}
+)
 
 
