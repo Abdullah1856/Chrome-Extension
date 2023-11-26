@@ -9,7 +9,7 @@ btnClicked.addEventListener("click", function () {
 }
 )
 
-let listItems = []
+let listItems = ''
 
 for (let i = 0; i < myLeads.length; i++) {
     // ulEl.innerHTML += '<li>' + myLeads[i] + '</li>' + ' '
