@@ -1,6 +1,7 @@
 body {
     margin: 0px;
     padding: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 button {
@@ -8,10 +9,11 @@ button {
     color: #fff;
     border: 1px solid;
     border-color: #5f9341;
-    padding: 10px 30px;
+    padding: 10px 40px;
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 400;
     cursor: pointer;
+    font-size: 18px;
 }
 
 input {
@@ -22,6 +24,8 @@ input {
     margin-bottom: 10px;
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 400;
+    font-size: 18px;
+    height: 55px;
 }
 
 input:focus-visible {
@@ -29,4 +33,30 @@ input:focus-visible {
     border-color: #5f9341 !important;
     outline: none;
     background-color: #7ad5ff2b;
+}
+
+#box {
+    padding: 50px;
+    background-color: aqua;
+    color: #000;
+    text-align: center;
+    width: 200px;
+    font-size: 24px;
+    font-weight: bolder;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0px !important;
+    padding-top: 15px;
+}
+
+li {
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+a {
+    color: #5f9341;
 }
