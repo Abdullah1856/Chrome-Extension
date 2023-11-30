@@ -10,6 +10,10 @@ let ulEl = document.getElementById('ul-el')
 
 // localStorage.clear();
 
+let links = `[abdullahs.dev]`
+links.push('Hi.dev');
+console.log(links);
+
 btnClicked.addEventListener("click", function () {
     myLeads.push(inputEl.value)
     inputEl.value = ""
