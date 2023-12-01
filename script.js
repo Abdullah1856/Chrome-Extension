@@ -3,23 +3,6 @@ const inputEl = document.getElementById('input-el')
 const btnClicked = document.getElementById('button-el')
 let ulEl = document.getElementById('ul-el')
 
-// localStorage.setItem('Class', 'First Year');
-
-// let printClass = localStorage.getItem('Class');
-// console.log(printClass);
-
-// localStorage.clear();
-
-let url = `["abdullahs.dev"]`
-
-url = JSON.parse(url)
-
-url.push("Hi.dev");
-
-console.log(url);
-
-
-
 btnClicked.addEventListener("click", function () {
     myLeads.push(inputEl.value)
     inputEl.value = ""
