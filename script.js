@@ -6,7 +6,7 @@ let ulEl = document.getElementById('ul-el')
 btnClicked.addEventListener("click", function () {
     myLeads.push(inputEl.value)
     inputEl.value = ""
-    localStorage.setItem('myLeads', console.log(JSON.stringify(myLeads)) )
+    localStorage.setItem('myLeads', console.log(JSON.stringify(myLeads)))
     renderLeads()
 }
 )
