@@ -3,6 +3,11 @@ const inputEl = document.getElementById('input-el')
 const btnClicked = document.getElementById('button-el')
 let ulEl = document.getElementById('ul-el')
 
+
+// myLeads = JSON.stringify(myLeads);
+// let ledsFromLocalStorage = localStorage.getItem('myLeads');
+// console.log(typeof ledsFromLocalStorage);
+
 btnClicked.addEventListener("click", function () {
     myLeads.push(inputEl.value)
     inputEl.value = ""
@@ -27,3 +32,4 @@ function renderLeads() {
 
     ulEl.innerHTML = listItems
 }
+
