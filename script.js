@@ -4,8 +4,9 @@ const btnClicked = document.getElementById('button-el')
 let ulEl = document.getElementById('ul-el')
 
 let leadsFromLocalStorage = JSON.parse(localStorage.getItem('myLeads'));
+
 if(leadsFromLocalStorage) {
-    myLeads  = leadsFromLocalStorage
+    myLeads = leadsFromLocalStorage
     renderLeads()
 }
 
@@ -32,3 +33,7 @@ function renderLeads() {
 
     ulEl.innerHTML = listItems
 }
+
+
+
+
