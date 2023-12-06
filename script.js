@@ -2,9 +2,8 @@ let myLeads = []
 const inputEl = document.getElementById('input-el')
 const btnClicked = document.getElementById('button-el')
 let ulEl = document.getElementById('ul-el')
-let leadsFromLocalStorage = JSON.parse(localStorage.getItem('myLeads'));
-console.log(leadsFromLocalStorage)
 
+let leadsFromLocalStorage = JSON.parse(localStorage.getItem('myLeads'));
 
 btnClicked.addEventListener("click", function() {
     myLeads.push(inputEl.value)
