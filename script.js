@@ -3,7 +3,7 @@ const inputEl = document.getElementById('input-el')
 const btnClicked = document.getElementById('button-el')
 let ulEl = document.getElementById('ul-el')
 
-let leadsFromLocalStorage = JSON.parse(localStorage.getItem('myLeads'));
+const leadsFromLocalStorage = JSON.parse(localStorage.getItem('myLeads'));
 
 if(leadsFromLocalStorage) {
     myLeads = leadsFromLocalStorage
