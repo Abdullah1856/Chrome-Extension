@@ -3,7 +3,7 @@ const inputEl = document.getElementById('input-el')
 const btnClicked = document.getElementById('button-el')
 let ulEl = document.getElementById('ul-el')
 
-let deleteBtn = document.getElementById('delete-btn')
+const deleteBtn = document.getElementById('delete-btn')
 deleteBtn.addEventListener('dblclick', function() {
 localStorage.clear()
 ulEl.innerHTML = ''
