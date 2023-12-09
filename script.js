@@ -1,3 +1,4 @@
+xd = 1;
 let myLeads = []
 const inputEl = document.getElementById('input-el')
 const btnClicked = document.getElementById('button-el')
