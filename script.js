@@ -7,13 +7,17 @@ const leadsFromLocalStorage = JSON.parse(localStorage.getItem('myLeads'));
 let tabBtn = document.getElementById('tab-btn')
 
 
-if(leadsFromLocalStorage) {
+if (leadsFromLocalStorage) {
     myLeads = leadsFromLocalStorage
     render(myLeads)
 }
 
-tabBtn.addEventListener('click', function(){
-console.log('')
+const tabs = [
+    { url: "github.com" }
+]
+
+tabBtn.addEventListener('click', function () {
+    console.log(tabs[0].url)
 }
 )
 
@@ -30,14 +34,14 @@ function render(leads) {
     ulEl.innerHTML = listItems
 }
 
-deleteBtn.addEventListener('dblclick', function() {
+deleteBtn.addEventListener('dblclick', function () {
     localStorage.clear()
     ulEl.innerHTML = ''
     myLeads = ''
-    }
-    )
+}
+)
 
-btnClicked.addEventListener("click", function() {
+btnClicked.addEventListener("click", function () {
     myLeads.push(inputEl.value)
     inputEl.value = ""
 
