@@ -49,4 +49,3 @@ btnClicked.addEventListener("click", function () {
 
     render(myLeads)
 })
-
